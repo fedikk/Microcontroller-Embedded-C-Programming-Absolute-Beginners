@@ -20,3 +20,9 @@ if you want to read a single char from the keyboard in ASCII form just use **get
 int a = getchar();
 ```
 
+# Bit extraction 
+
+if we want to extract a a portion of data 
+
+1. shift the identification portion to right hand side until it touches the least significant bit
+2. Mask the value to extract only 6bits and save it into another variable
