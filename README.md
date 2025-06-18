@@ -25,4 +25,12 @@ int a = getchar();
 if we want to extract a a portion of data 
 
 1. shift the identification portion to right hand side until it touches the least significant bit
-2. Mask the value to extract only 6bits and save it into another variable
+   a. Shift by the first index in our case we cant the portion [9::14] then data= data >> 9
+3. Mask the value to extract only 6bits and save it into another variable
+
+
+```c
+
+
+
+```
